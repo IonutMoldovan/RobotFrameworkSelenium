@@ -1,0 +1,30 @@
+# Ignore Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore Robot Framework log and report files
+report/
+output/
+
+# Ignore screenshots directory
+report/screenshots/
+
+# Ignore IDE or editor files
+.vscode/
+.idea/
+*.swp
+
+# Ignore virtual environments
+venv/
+env/
+*.egg-info/
+
+# Ignore PyCharm project settings
+.idea/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore other OS-specific files
+Thumbs.db
